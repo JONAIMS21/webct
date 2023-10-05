@@ -1,0 +1,89 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.links{
+    background-color: white;
+    display: flex;
+    list-style-type: none;
+    text-align: right;
+    justify-items: right;
+    margin: 0;
+    padding: 0%;
+    
+    
+}
+
+.sub1{
+    background-color:white;
+}
+
+.linksa li{
+    display: flex;
+    color: rgb(228, 32, 32);
+    font-size: 36px;
+    list-style-type: none;
+    margin-right: 60px;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+
+.logo{
+    margin: 0%;
+    
+    margin-left: 25%;
+}
+
+.linksb{
+display:flex;
+background-color: rgba(98, 7, 173, 0.774);
+list-style-type: none;
+color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    float: left;
+    display: flex;
+    font-size: 50px;
+
+}
+ul li{
+    list-style: none;
+    margin-left: 90px;
+    font-size: 70%;
+    padding: 20px;
+}
+.linksa :hover{
+cursor: pointer;
+color: blue;
+text-decoration: underline;
+}
+.progs{
+    margin: 20px 0px;
+    display: inline;
+    display: flex;
+    justify-content: space-between;
+    font-size: 50%;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-color: crimson;
+}
+.progs li{
+    border: 10px solid rgb(5, 3, 90);
+    padding: 6%;
+    margin-bottom: 5%;
+    text-indent: 2px;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+.progs li:hover{
+    cursor: pointer;
+    width: fit-content;
+    height: 50px;
+    text-decoration: wavy;
+    color: rgb(63, 236, 164);
+    border: 10px solid rgb(230, 91, 11);
+}

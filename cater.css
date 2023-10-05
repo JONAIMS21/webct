@@ -1,0 +1,53 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+    background-image: url(./chef.png);
+    background-size: cover;
+    opacity: 80%;
+}
+.logo{
+    background-color: black;
+    
+}
+    .icons{
+        display: flex;
+        list-style: none;
+        justify-content: flex-end;
+        padding-right: 20px;
+        margin-right: 15px;
+        justify-content: space-around;
+        
+    }
+.links{
+    list-style: none;
+    display: flex;
+    background-color: coral;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px ;
+    padding: 20px;
+    font-size: 30px;
+    color: floralwhite;
+}
+.pics{
+    display: flex;
+    font-size:;
+    
+}
+
+h2{
+    color: rgb(197, 16, 10);
+    font-size: 45px;
+}
+.txt{
+    color: black;
+    font-size:40px ;
+    
+}
+.links li:hover{
+    color: greenyellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
